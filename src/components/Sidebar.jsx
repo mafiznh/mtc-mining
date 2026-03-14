@@ -1,4 +1,4 @@
-import { LayoutDashboard, Tool, Activity, FileText, Settings, Factory } from 'lucide-react';
+import { LayoutDashboard, Wrench, Activity, FileText, Settings, Factory } from 'lucide-react';
 
 export default function Sidebar() {
   return (
@@ -16,7 +16,7 @@ export default function Sidebar() {
           <span>Dashboard</span>
         </a>
         <a href="#" className="nav-item">
-          <Tool size={20} />
+          <Wrench size={20} />
           <span>Equipment Fleet</span>
         </a>
         <a href="#" className="nav-item">
