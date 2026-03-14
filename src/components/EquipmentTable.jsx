@@ -20,6 +20,9 @@ export default function EquipmentTable() {
       }
     }
     fetchEq();
+    const intervalId = setInterval(fetchEq, 5000); // Poll every 5 seconds
+
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
